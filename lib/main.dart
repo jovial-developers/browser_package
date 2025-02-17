@@ -218,8 +218,8 @@ class _FlutterBrowserAppState extends State<FlutterBrowserApp>
   }
 }
 
-// void main(List<String> args) {
-//   initializeApp(args).then((_) {
-//     runApp(initializeWidgets());
-//   });
-// }
+void main(List<String> args) {
+  initializeApp(args).then((_) {
+    runApp(initializeWidgets());
+  });
+}
